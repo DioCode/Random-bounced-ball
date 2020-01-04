@@ -1,0 +1,31 @@
+body {
+  background-size: 1000px 900px;
+  background: linear-gradient(90deg, rgba(103,25,221,1) 14%, rgba(91,15,154,1) 100%);
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+#buttonchick {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+} 
+
+.container {
+  will-change: left;
+  position: absolute;
+}
+
+.f {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.pressF {
+  position: absolute;
+}
